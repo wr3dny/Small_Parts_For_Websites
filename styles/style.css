@@ -1,11 +1,11 @@
 .main_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 0.25fr 0.5fr 0.5fr 0.25fr;
+    grid-template-rows: 0.2fr 0.6fr 0.2fr;
     grid-template-areas: 
-        top-bar top-bar top-bar add
-        main main main add
-        footer footer footer add;
+        "top-bar top-bar top-bar add"
+        "main main main add"
+        "footer footer footer add" ;    
     background-color: aqua;
 
 }
