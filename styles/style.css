@@ -1,9 +1,59 @@
 .main_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    ;
+        top-bar top-bar top-bar add
+        main main main add
+        footer footer footer add;
     background-color: aqua;
 
+}
+
+#elem1 {
+    grid-area: 'top-bar';
+}
+
+#elem2 {
+    grid-area: 'top-bard' ;
+}
+
+#elem3 {
+    grid-area: 'add';
+}
+
+#elem4 {
+    grid-area: 'add';
+}
+
+#elem5 {
+    grid-area: 'add';
+}
+
+#elem6 {
+    grid-area: 'footer';
+}
+
+#elem7 {
+    grid-area: 'top-bar';
+}
+
+#elem8 {
+    grid-area: 'main';
+}
+
+#elem9 {
+    grid-area: 'footer';
+}
+
+#elem10 {
+    grid-area: 'main';
+}
+
+#elem11 {
+    grid-area: 'footer';
+}
+
+#elem12 {
+    grid-area: 'main';
 }
